@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px;
+   background-image: url("photo.jpeg") ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100vw;
+}
+nav{
+    align-items: center;
+    text-align: center;
+    
+}
+.cardBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.search{
+    display: flex;
+    
+}
+.searchBar{
+   border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 15px ;
+    position: relative;
+    top: 10px;
+    text-decoration: crimson;
+    text-align: center;
+}
+button{
+    margin: 0.5em;
+   border: none;
+   border-radius: 50%;
+   width: 3em;
+   height: 3em;
+   cursor: pointer;
+   background-color: rgba(0, 0, 0, 0.3);
+   color: crimson;
+   position: relative;
+   top: 10px;
+}
+.weather{
+    color: antiquewhite;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+}
